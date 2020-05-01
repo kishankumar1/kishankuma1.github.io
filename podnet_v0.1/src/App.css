@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Background-image-login {
+  background-image: url(./images/Oliver\ Jame\ \(3\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: contain;
+  background-size: cover;
+  margin: auto;
+}
+
+.Background-image-signup {
+  background-image: url(./images/Oliver\ Jame\ \(4\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: contain;
+  background-size: cover;
+  margin: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.site-page-header {
+  border: 1px solid rgb(235, 237, 240);
+}
+
+.Main-page-header {
+  background-color: lightcoral;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
